@@ -11,9 +11,17 @@ body{
     align-items: center;
     padding: 20px 0;
 }
-input{
-    width: 300px;
-    height: 20px;
+input {
+	width: 300px;
+	height: 36px;
+	border-radius: 30px;
+	border: 2px solid yellowgreen;
+}
+input[type=text]{
+    padding: 0 12px;
+}
+::placeholder{
+    color: black;
 }
 .cards{
     display: grid;
@@ -45,6 +53,10 @@ input{
     width: 100%;
     padding-bottom: 10px;
     border-radius: 125px 0;
+    transition: .4s;
+}
+.card img:hover{
+    border-radius: 0;
 }
 
 @media screen and (max-width:991px) {
