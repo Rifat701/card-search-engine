@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: system-ui;
+}
 .inputvalue{
     display: flex;
     justify-content: center;
@@ -18,13 +21,29 @@ input{
     align-items: center;
     grid-template-columns: repeat(4, 0fr);
     gap: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.cards h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+}
+.cards h4{
+    font-size: 22px;
+    color: #41e8d5;
 }
 .card{
     width: 300px;
-    height: 290px;
+    height: 321px;
+    background: #424651;
+    color: #fff;
+    border-radius: 8px;
 }
 .card img{
     width: 100%;
+    padding-bottom: 10px;
+    border-radius: 125px 0;
 }
 
 @media screen and (max-width:991px) {
