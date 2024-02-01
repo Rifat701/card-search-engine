@@ -23,6 +23,7 @@ input{
     gap: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    padding: 0 0 10px 0;
 }
 .cards h3{
     text-transform: uppercase;
@@ -89,8 +90,8 @@ input{
         grid-template-columns: repeat(2, 0fr);
         gap: 10px;
     }
-    .card{
-        width: 150px;
+    .card {
+        width: 187px;
         height: 255px;
     }
 }
